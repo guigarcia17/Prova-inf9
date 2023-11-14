@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9d8080;
+
+}
+
+.logo {
+    align-items: start;
+}
+
+.hero {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/imgs/hero.jpg);
+    height: 800px;
+    color: white;
+}
+
+.info {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: #c3c63b;
+}
+
+.container-in {
+    background-color: #191c03;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.icon {
+    color: #c3c63b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon1 {
+    color: #c3c63b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon2 {
+    color: #c3c63b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.newsletter {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+input {
+    border-radius: 8px;
+}
+
+.b2 {
+    background-color: #c3c63b;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.rodape {
+    background-color: #393f06;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.b1 {
+    height: 50px;
+    width: 90px;
+    border-radius: 10px;
+    border-left: 10px;
+    border-right: 10px;
+}
